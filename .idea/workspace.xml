@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b56378-364b-4724-ad12-dcaafafb0fb5" name="Default Changelist" comment="" />
+    <list default="true" id="43b56378-364b-4724-ad12-dcaafafb0fb5" name="Default Changelist" comment="still working wanted to get in before cutoff">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labFour.js" beforeDir="false" afterPath="$PROJECT_DIR$/labFour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops.js" beforeDir="false" afterPath="$PROJECT_DIR$/loops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treeOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/treeOrder.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,33 +33,33 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascriptProjects" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.github.js">
+  <component name="RunManager" selected="JavaScript Debug.treeOrder.html">
+    <configuration name="treeOrder.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LAB5/treeOrder.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="conditions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/conditions.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="github.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/github.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hello.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="loops.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/loops.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="zip.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zip.js" working-dir="$PROJECT_DIR$">
+    <configuration name="weather.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/weather.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.treeOrder.html" />
         <item itemvalue="Node.js.github.js" />
+        <item itemvalue="Node.js.weather.js" />
         <item itemvalue="Node.js.loops.js" />
         <item itemvalue="Node.js.conditions.js" />
-        <item itemvalue="Node.js.hello.js" />
-        <item itemvalue="Node.js.zip.js" />
       </list>
     </recent_temporary>
   </component>
@@ -69,7 +74,14 @@
       <workItem from="1600772960649" duration="18405000" />
       <workItem from="1601403685401" duration="1100000" />
       <workItem from="1602798150126" duration="721000" />
-      <workItem from="1603040737053" duration="2262000" />
+      <workItem from="1603040737053" duration="5138000" />
+      <workItem from="1603215988995" duration="19000" />
+      <workItem from="1603244417675" duration="580000" />
+      <workItem from="1603392221310" duration="6438000" />
+      <workItem from="1603490357469" duration="31000" />
+      <workItem from="1605754469232" duration="2540000" />
+      <workItem from="1605821197420" duration="279000" />
+      <workItem from="1606163223587" duration="4824000" />
     </task>
     <servers />
   </component>
@@ -77,42 +89,51 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1603042420516">
+    <state x="-1206" y="344" key="#Notifications" timestamp="1603043205492">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603042420516" />
-    <state x="-1082" y="418" key="Github.ShareDialog" timestamp="1603042392336">
+    <state x="-1206" y="344" key="#Notifications/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603043205492" />
+    <state x="-1180" y="128" key="FileChooserDialogImpl" timestamp="1606163992585">
+      <screen x="-1920" y="-147" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="128" key="FileChooserDialogImpl/0.0.1536.824/-1920.-147.1920.1040@-1920.-147.1920.1040" timestamp="1606163992585" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605821475428" />
+    <state x="-1082" y="418" key="Github.ShareDialog" timestamp="1603043260649">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1082" y="418" key="Github.ShareDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603042392336" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1600811720515">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1082" y="418" key="Github.ShareDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603043260649" />
+    <state x="-1138" y="225" key="Github.UntrackedFilesDialog" timestamp="1603043270574">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600793403845" />
+    <state x="-1138" y="225" key="Github.UntrackedFilesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603043270574" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1605761507941">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605761507941" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
     <state width="798" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600786132688" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1600811720515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600793403845" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
-    <state width="798" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600786132686" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1600811720515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600793403845" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
-    <state width="798" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600786132686" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1600811720515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600793403845" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
-    <state width="798" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600786132688" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603042712511">
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1605761507941">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603042712511" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605761507941" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
+    <state width="798" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600786132686" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1605761507941">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605761507941" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
+    <state width="798" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600786132686" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1605761507941">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605761507941" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600811720515" />
+    <state width="798" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600786132688" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603068888518">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603068888518" />
     <state x="-1143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603043196354">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

@@ -48,7 +48,7 @@ let rates = {
 
 rates.CHF = 1.1787
 
-let audTOEuro = rates['AUD']
+let audToEuro = rates['AUD']
 let aud = audToEuro * 100
 console.log(audTOEuro)
 
@@ -73,11 +73,10 @@ for (let currency in rates) {
         ];
 
 // TODO print Gary Oldman's cat's name
-        console.log()
 // TODO Taylor Swift's cat is called 'Meredith'. Write code to add this data to the array.
 // TODO write a loop to print each cat owner, and their cat's name, one per line. Use the forEach style.
 
-        console.log(cats_and_owners[2].cat
+        console.log(cats_and_owners[1].cat
 
 
         /* d. Use the following JSON object, describing the Nobel Prize winners in 2017.
@@ -217,5 +216,10 @@ for (let currency in rates) {
             ]
         }
         let literatureNobelLaureate = nobel_prize_winners_2017[3].laureates[0]
-            console.log(literatureNobelLaureate.firstname,literatureNobelLaureate.surname)
+            console.log(literatureNobelLaureate.firstname,literatureNobelLaureate.surname)}
+let prizes = nobel_prize_winners_2017.prizes
+    prizes.forEach(function (prize){
+        console.log(prize.category)
+    })
+}
 

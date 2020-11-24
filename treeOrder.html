@@ -64,7 +64,7 @@
     let homeownerStreetNameInput = document.querySelector('#homeowner-street-name')
     let treeTypeSelect = document.querySelector('#tree-type')
     let cityInput = document.querySelector('#city')
-    let zipInput = document.querySelector('#zipcode')
+    let zipInput = document.querySelector('#zip-Code')
 
     // TODO create a variable for city input element
     // TODO create a variable for zip code input element
@@ -81,6 +81,7 @@
         let treeType = treeTypeSelect.value
         let city = cityInput.value
         let zipCode = zipInput.value
+        let errors = []
 
         // TODO get the value from the input#city
         // TODO get the value from the input#zipcode
@@ -88,25 +89,42 @@
         // TODO Validate that all six input and select elements have been completed
 
         // TODO Validate the zipcode is in the range 55001 and 56763 (which checks that the zip code is in Minnesota)
-       // if (zipCode >= 55001 && <= 56763)
 
-        let errors = []
-
+        if (!name) {
+            errors.push('Enter name')
+        }
+        if (!houseNumber) {
+            errors.push('Enter house number')
+        }
+        if (!streetName) {
+            errors.push('Enter street address')
+        }if (!treeType) {
+            errors.push('Select tree name')
+        }
+        if (!city) {
+            errors.push('Enter city')
+        }
+        if (errors.length >0 ){
+            alert("Problem with form")
+        if (zipCode >= 55001 && zipCode <= 56763) {
+            return true
+        } else {
+            return false
+        }
+        console.log(errors.join)
 
         // If a form element has not been completed, add an error message to the errors array (use push)
-
 
         // TODO - If there are any errors after checking all of the elements,
         // display an alert with all of the error messages (use join)
         // and then return from this function to prevent further processing
 
-     if (errors.length >1 ){
-         alert("Problem with form")
 
      }
-     orderSummaryParagraph.innerHTML = name + " " + houseNumber
+
         // TODO - If there are no errors, use a template string to display an order summary in the order summary paragraph
 
+        orderSummaryParagraph.innerHTML = `${name} + ", your appointment has been scheduled for " + ${houseNumber}`
 
     })
 
